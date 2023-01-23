@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Page</title>
+    <style>
+         body{
+            background-color: rgb(190, 246, 190);
+        }
+        #child{
+            height:50px;
+            width:97%;
+            background-color: rgb(30, 33, 33);
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:50px;
+            border-radius: 15px;
+        }
+        #child>button{
+            height:32px;
+            width:100px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin-left:5px;
+            border-radius:10px;
+            background-color:rgb(190, 246, 190) ;
+        }
+        #container{
+            height:400px;
+            width:500px;
+           
+            margin:auto;
+            margin-top: 5ch;
+            border-radius:10px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        }
+        img{
+            height:100%;
+           width:100%;
+           border-radius:10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="child">
+        <button onclick="start()">start</button>
+        <button onclick="stop()">pause</button>
+    </div>
+  
+
+   <div id="container"></div> 
+</body>
+</html>
+<script src="./album.js"></script>

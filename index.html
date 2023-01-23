@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        body{
+            background-color: rgb(190, 246, 190);
+        }
+        #outer{
+            height:50px;
+            width:97%;
+            background-color: rgb(30, 33, 33);
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:50px;
+            border-radius: 15px;
+        }
+        #outer>input{
+            height:25px;
+            width:550px;
+           
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            border-radius:10px;
+        }
+        button{
+            height:32px;
+            width:100px;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            margin-left:5px;
+            border-radius:10px;
+            background-color:rgb(190, 246, 190) ;
+
+        }
+        a{
+            color:black;
+        }
+       
+    </style>
+</head>
+<body>
+    
+        
+    <div id="outer">
+        <input type="url" id="url" placeholder="please submit your image url">
+        <button onclick="storeImage()">Submit</button>
+        <div>
+            <button><a href="./album.html">Next</a></button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<script src="./index.js"></script>
